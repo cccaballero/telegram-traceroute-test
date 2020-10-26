@@ -119,7 +119,7 @@ def run():
                                                                     "\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00"
                                                                 )
 
-    # a normal TCP packet to 443 port of example.com
+    # a normal TCP packet to 443 port of telegram.org
     telegram_tcp_packet = IP(dst='149.154.167.99') / TCP(sport=45290, dport=443)
 
     # a normal TCP packet to 443 port of alexa.com
